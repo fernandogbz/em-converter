@@ -9,7 +9,7 @@ body {
   background-color: #7fca37;
 }
 
-.conntainer {
+.container {
   background-color: #fff;
   width: 80vmin;
   font-size: 16px;
@@ -17,8 +17,13 @@ body {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-    padding: 4em 1.8em;
-    border-radius: 9.6em;
-    box-shadow: 0 0.7em 3em rgba(44, 71, 18, 0.4);
+  padding: 4em 1.8em;
+  border-radius: 9.6em;
+  box-shadow: 0 0.7em 3em rgba(44, 71, 18, 0.4);
+}
 
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.8em;
 }
