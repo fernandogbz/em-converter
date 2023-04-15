@@ -35,6 +35,15 @@ label {
   color: #262a5a;
 }
 
+input {
+  width: 100%;
+  font-size: 1.25;
+  padding: 0.6em 0.55em;
+  margin-top: 0.5em;
+  border-radius: 0.2em;
+  border: 1px solid #0a0125;
+}
+
 .container .wrapper:nth-child(2) {
   width: 50%;
   margin: 3em auto 1.25em auto;
