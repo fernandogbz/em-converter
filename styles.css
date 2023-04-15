@@ -64,4 +64,7 @@ input {
     width: 100%;
     margin: 3.5em auto 0.6em auto;
   }
+  .container .wrapper:nth-child(3) {
+    flex-direction: column;
+  }
 }
