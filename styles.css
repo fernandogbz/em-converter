@@ -55,3 +55,7 @@ input {
   justify-content: space-between;
   gap: 0.6em;
 }
+
+@media screen and (max-width: 575px) {
+  
+}
