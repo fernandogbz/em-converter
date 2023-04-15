@@ -28,6 +28,13 @@ h1 {
   font-size: 2.8em;
 }
 
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #262a5a;
+}
+
 .container .wrapper:nth-child(2) {
   width: 50%;
   margin: 3em auto 1.25em auto;
