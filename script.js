@@ -33,6 +33,12 @@ let emToPx = () => {
   }
 };
 
+// Function to calculate EM and PX when Base Font Size is changed
+let calcEmPx = () => {
+  
+}
+
 // Adding oninput event to each input field
 inpPX.oninput = pxToEm;
 inpEM.oninput = emToPx;
+inpBase.oninput = calcEmPx;
