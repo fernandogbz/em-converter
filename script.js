@@ -40,7 +40,12 @@ let calcEmPx = () => {
   if (inpBase.value.length != 0) {
     emToPx();
   }
-}
+  // If empty clear PX and EM field
+  else {
+    inpPX.value = "";
+    inpEM.value = "";
+  }
+};
 
 // Adding oninput event to each input field
 inpPX.oninput = pxToEm;
