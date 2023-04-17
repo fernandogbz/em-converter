@@ -12,6 +12,10 @@ let pxToEm = () => {
   if(pxValue.length != 0) {
     inpEM.value = pxValue / inpBaseValue;
   }
+  // If empty then clear EM field
+  else {
+    inpEM.value = "";
+  }
 }
 
 // Adding oninput event to each input field
