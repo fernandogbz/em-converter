@@ -1,0 +1,1 @@
+// Getting variables for each input field
