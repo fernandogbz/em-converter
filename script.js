@@ -16,7 +16,14 @@ let pxToEm = () => {
   else {
     inpEM.value = "";
   }
+};
+
+// Function to convert EM to PX
+let emToPx = () => {
+  let inpBaseValue = inpBase.value;
+  let emValue = inpEM.value;
 }
 
 // Adding oninput event to each input field
 inpPX.oninput = pxToEm;
+inpEM.oninput = emToPx;
