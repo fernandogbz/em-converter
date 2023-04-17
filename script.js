@@ -35,7 +35,11 @@ let emToPx = () => {
 
 // Function to calculate EM and PX when Base Font Size is changed
 let calcEmPx = () => {
-  
+  //Checking if input field isn't empty
+  //If not empty then run emToPx()/pxToEm()
+  if (inpBase.value.length != 0) {
+    emToPx();
+  }
 }
 
 // Adding oninput event to each input field
