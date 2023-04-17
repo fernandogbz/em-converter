@@ -27,7 +27,11 @@ let emToPx = () => {
   if(emValue.length != 0) {
     inpPX.value = emValue * inpBaseValue;
   }
-}
+  // If empty then clear the PX field
+  else {
+    inpPX.value = "";
+  }
+};
 
 // Adding oninput event to each input field
 inpPX.oninput = pxToEm;
