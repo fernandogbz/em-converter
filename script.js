@@ -7,7 +7,11 @@ let inpEM = document.getElementById("inp-em");
 let pxToEm = () => {
   let inpBaseValue = inpBase.value;
   let pxValue = inpPX.value;
-  console.log(inpBaseValue,pxValue)
+  //Checking if input field isn't empty
+  //If not empty then calculate the EM value
+  if(pxValue.length != 0) {
+    inpEM.value = pxValue / inpBaseValue;
+  }
 }
 
 // Adding oninput event to each input field
