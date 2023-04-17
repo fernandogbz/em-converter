@@ -2,3 +2,6 @@
 let inpBase = document.getElementById("inp-base-px");
 let inpPX = document.getElementById("inp-px");
 let inpEM = document.getElementById("inp-em");
+
+// Adding oninput event to each input field
+inpPX.oninput = pxToEm;
