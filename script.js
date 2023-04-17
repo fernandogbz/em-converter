@@ -22,6 +22,11 @@ let pxToEm = () => {
 let emToPx = () => {
   let inpBaseValue = inpBase.value;
   let emValue = inpEM.value;
+  //Checking if input field isn't empty
+  //If not empty then calculate the PX value
+  if(emValue.length != 0) {
+    inpPX.value = emValue * inpBaseValue;
+  }
 }
 
 // Adding oninput event to each input field
